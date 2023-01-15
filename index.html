@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600&family=Inter:wght@300;400;500&family=Josefin+Sans:ital,wght@0,400;0,500;1,300&family=Roboto:wght@100&display=swap"
       rel="stylesheet"
     />
@@ -16,7 +20,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="LandingScreen">
+    <!-- <section class="LandingScreen">
       <div class="WithDarkBg">
         <p class="AppName">Sky <span class="Cast">Cast</span></p>
         <img src="Images/Icon.png" alt="AppIcon" class="AppIcon" />
@@ -27,7 +31,142 @@
         <p class="TagLIne3">Search to get weather of desired location</p>
         <button class="GetStarted">Get Started</button>
       </div>
+    </section> -->
+
+    <section class="WeatherAppScreen">
+      <div class="Date">
+        <p class="CurrentDate">January 15 (04:30 PM)</p>
+      </div>
+      <div class="Search">
+        <span id="ID-Search" class="material-symbols-outlined"> search </span
+        ><input
+          type="text"
+          class="LocationSearch"
+          placeholder="Search any Location"
+        />
+        <span class="material-symbols-outlined" id="Search-Check"
+          ><script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+          <lord-icon
+            src="https://cdn.lordicon.com/zmkotitn.json"
+            trigger="hover"
+            style="width: 25px; height: 25px"
+          >
+          </lord-icon
+        ></span>
+      </div>
+      <div class="CurrentWeatherCondition">
+        <div class="Temp-Condition">
+          <p class="CurrentTemperature">24</p>
+          <p class="CurrentWeatherTy">Sunny</p>
+        </div>
+        <div class="CurrentWeatherImage">
+          <img src="Images/RainySunny.png" alt="" id="CurrentWeatherImage" />
+        </div>
+      </div>
+      <p class="CurrentCoditionQuote">It's a Sunny Day</p>
     </section>
+
+    <section class="WeatherStats">
+      <div class="Stat">
+        <img
+          src="images/SunRise.png"
+          alt="Temperature"
+          class="temperatureImage"
+        />
+        <div class="stat-numbers">
+          <p class="statName">Sun Rise</p>
+          <p class="stat-Amount">06:00 AM</p>
+        </div>
+      </div>
+      <div class="Stat">
+        <img
+          src="images/SunSet.png"
+          alt="Temperature"
+          class="temperatureImage"
+        />
+        <div class="stat-numbers">
+          <p class="statName">Sun Set</p>
+          <p class="stat-Amount">07:00 PM</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="WeatherStats">
+      <div class="Stat">
+        <img
+          src="images/Temperature.png"
+          alt="Temperature"
+          class="temperatureImage"
+        />
+        <div class="stat-numbers">
+          <p class="statName">Max Temp.</p>
+          <p class="stat-Amount">24 C</p>
+        </div>
+      </div>
+      <div class="Stat">
+        <img
+          src="images/Temperature.png"
+          alt="Temperature"
+          class="temperatureImage"
+        />
+        <div class="stat-numbers">
+          <p class="statName">Min Temp.</p>
+          <p class="stat-Amount">24 C</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="WeatherStats">
+      <div class="Stat">
+        <img
+          src="images/Pressure.png"
+          alt="Temperature"
+          id="pressure"
+          class="temperatureImage"
+        />
+        <div class="stat-numbers">
+          <p class="statName">Pressure</p>
+          <p class="stat-Amount">12 hpa</p>
+        </div>
+      </div>
+      <div class="Stat">
+        <img
+          src="images/WindSpeed.png"
+          alt="Temperature"
+          class="temperatureImage"
+        />
+        <div class="stat-numbers">
+          <p class="statName">Wind Speed</p>
+          <p class="stat-Amount">24 Km/h</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="WeatherStats">
+      <div class="Stat">
+        <img
+          src="images/Rain.png"
+          alt="Temperature"
+          class="temperatureImage"
+        />
+        <div class="stat-numbers">
+          <p class="statName">Rain</p>
+          <p class="stat-Amount">0 mm </p>
+        </div>
+      </div>
+      <div class="Stat">
+        <img
+          src="images/Snow.png"
+          alt="Temperature"
+          class="temperatureImage"
+        />
+        <div class="stat-numbers">
+          <p class="statName">Snow</p>
+          <p class="stat-Amount">0 mm</p>
+        </div>
+      </div>
+    </section>
+
     <script src="script.js" async defer></script>
   </body>
 </html>
