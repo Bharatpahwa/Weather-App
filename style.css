@@ -12,7 +12,7 @@ body {
 }
 
 .LandingScreen {
-  transform: scale(1.05);
+  transform: scale(1.1);
   display: flex;
   margin: auto;
   flex-direction: column;
@@ -72,4 +72,76 @@ body {
 .TagLIne2,
 .TagLIne3 {
   font-size: 16px;
+}
+
+.WeatherAppScreen {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+  margin: 0px auto 40px auto;
+  background-color: #120a42;
+  padding: 32px;
+  font-size: 18px;
+  color: white;
+  border-radius: 0px 0px 40px 40px;
+}
+
+.Date {
+  text-align: left;
+}
+
+.Search {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 12px 12px 0px;
+}
+
+.LocationSearch {
+  padding: 10px;
+  width: 230px;
+  height: 18px;
+  color: white;
+  border: none;
+}
+
+.CurrentWeatherCondition {
+  display: flex;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1b1c48;
+  padding: 10px 20px 10px 20px;
+}
+
+.CurrentTemperature {
+  font-size: 44px;
+  margin: 12px 0px 12px 8px;
+}
+
+.material-symbols-outlined {
+  color: black;
+  background-color: white;
+  padding: 7px;
+}
+
+#Search-Check {
+  margin-left: -14px;
+  border-radius: 0px 6px 6px 0px;
+  background-color: #ffd977;
+}
+
+#ID-Search {
+  margin-right: -12px;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.CurrentCoditionQuote {
+  text-align: center;
+}
+
+.CurrentWeatherTy {
+  margin: 12px 0px 12px 8px;
 }
