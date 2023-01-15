@@ -1,0 +1,71 @@
+* {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #E3E3E3;
+}
+.LandingScreen {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  gap: 4rem;
+}
+
+.AppName {
+  font-size: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0.3rem;
+}
+
+.AppIcon {
+  margin: 2.3rem;
+  height: 16rem;
+}
+
+.WithDarkBg {
+  color: white;
+  letter-spacing: 0.1rem;
+  background-color: #120a42;
+  padding: 4rem;
+  border-radius: 0px 0px 60px 60px;
+}
+
+.TagLine {
+  font-size: 16px;
+}
+
+.GetStarted{
+  width:fit-content ;
+  padding: 16px 54px 16px 54px;
+  border: none;
+  margin: 12px;
+  font-size: 18px;
+  border-radius: 12px;
+  color: white;
+  background-color: #120a42;
+}
+
+.Cast {
+  color: #ffd977;
+}
+
+.WithWhiteBg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.TagLIne2,
+.TagLIne3 {
+  font-size: 22px;
+}
