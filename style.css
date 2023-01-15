@@ -12,6 +12,7 @@ body {
 }
 
 .LandingScreen {
+  transform: scale(1.05);
   display: flex;
   margin: auto;
   flex-direction: column;
