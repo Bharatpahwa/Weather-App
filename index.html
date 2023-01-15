@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- <section class="LandingScreen">
+    <section class="LandingScreen">
       <div class="WithDarkBg">
         <p class="AppName">Sky <span class="Cast">Cast</span></p>
         <img src="Images/Icon.png" alt="AppIcon" class="AppIcon" />
@@ -31,7 +31,10 @@
         <p class="TagLIne3">Search to get weather of desired location</p>
         <button class="GetStarted">Get Started</button>
       </div>
-    </section> -->
+    </section>
+
+
+    <section class="Weather-UI">
 
     <section class="WeatherAppScreen">
       <div class="Date">
@@ -92,10 +95,11 @@
     </section>
 
     <section class="WeatherStats">
-      <div class="Stat">
+      <div class="Stat" id="Max-min-temp">
         <img
           src="images/Temperature.png"
           alt="Temperature"
+
           class="temperatureImage"
         />
         <div class="stat-numbers">
@@ -103,7 +107,7 @@
           <p class="stat-Amount">24 C</p>
         </div>
       </div>
-      <div class="Stat">
+      <div class="Stat"id="Max-min-temp">
         <img
           src="images/Temperature.png"
           alt="Temperature"
@@ -144,28 +148,35 @@
 
     <section class="WeatherStats">
       <div class="Stat">
-        <img
-          src="images/Rain.png"
-          alt="Temperature"
-          class="temperatureImage"
-        />
+        <img src="images/Rain.png" alt="Temperature" class="temperatureImage" />
         <div class="stat-numbers">
           <p class="statName">Rain</p>
-          <p class="stat-Amount">0 mm </p>
+          <p class="stat-Amount">0 mm</p>
         </div>
       </div>
       <div class="Stat">
-        <img
-          src="images/Snow.png"
-          alt="Temperature"
-          class="temperatureImage"
-        />
+        <img src="images/Snow.png" alt="Temperature" class="temperatureImage" />
         <div class="stat-numbers">
           <p class="statName">Snow</p>
           <p class="stat-Amount">0 mm</p>
         </div>
       </div>
     </section>
+    <section class="WeatherStats">
+      <div class="Stat">
+        <img
+          src="images/Humidity.png"
+          alt="Temperature"
+          class="temperatureImage"
+        />
+        <div class="stat-numbers">
+          <p class="statName">Humidity</p>
+          <p class="stat-Amount">90 %</p>
+        </div>
+      </div>
+    </section>
+
+  </section>
 
     <script src="script.js" async defer></script>
   </body>

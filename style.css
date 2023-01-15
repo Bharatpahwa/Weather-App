@@ -20,6 +20,7 @@ body {
   align-items: center;
   text-align: center;
   gap: 44px;
+  animation: slidein .6s linear 0s alternate;
 }
 
 .AppName {
@@ -73,11 +74,16 @@ body {
 .TagLIne3 {
   font-size: 16px;
 }
-
+.Weather-UI{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: none;
+}
 .WeatherAppScreen {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   text-align: left;
   margin: 0px auto 20px auto;
   background-color: #120a42;
@@ -85,6 +91,7 @@ body {
   font-size: 18px;
   color: white;
   border-radius: 0px 0px 40px 40px;
+  animation: slidein 0.6s linear 0s alternate;
 }
 
 .Date {
@@ -103,7 +110,6 @@ body {
   padding: 10px;
   width: 230px;
   height: 18px;
-  color: white;
   border: none;
 }
 
@@ -162,6 +168,7 @@ body {
   display: flex;
   gap: 30px;
   margin: 12px auto 12px auto;
+  animation: slidein .6s linear 0s alternate;
 }
 
 .stat-Amount {
@@ -169,10 +176,24 @@ body {
   margin: 6px;
 }
 
-.temperatureImage{
+.temperatureImage {
   height: 60px;
 }
 
-#CurrentWeatherImage{
+#CurrentWeatherImage {
   height: 154px;
+}
+
+#Max-min-temp {
+  justify-content: space-around;
+}
+
+@keyframes slidein {
+  0% {
+    transform: translateY(300px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
 }
